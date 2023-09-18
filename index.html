@@ -12,6 +12,16 @@
     <strong>Welcome to your dashboard!</strong>
 </header>
 
+<div id="news">
+    <h2>News</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Sed non risus. Suspendisse lectus tortor, dignissim sit amet,
+        adipiscing nec, ultricies sed, dolor. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit.
+    </p>
+</div>
+
 <section>
     <div>
         <img src="res/images/me.png" width="128" height="128" alt="My picture">
@@ -97,21 +107,41 @@
         </tr>
     </table>
 
-</footer>
+</footer><br>
 
-<form>
+<form action="/action_page.php">
     <label for="ctitle">Course Title:</label><br>
     <input type="text" id="ctitle" name="ctitle"><br>
 
-    <input type="radio" id="html" name="fav_language" value="Virtual Attendance">
-    <label for="html">HTML</label><br>
-    <input type="radio" id="css" name="fav_language" value="CSS">
-    <label for="css">CSS</label><br>
-    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-    <label for="javascript">JavaScript</label>
 
+    <label for="semester">Semester:</label><br>
+    <select name="semester" id="semester">
+        <option value="Fall">Fall</option>
+        <option value="Spring">Spring</option>
+    </select><br>
+
+    <label for="va">Attendance:</label><br>
+    <input type="radio" id="va" name="1" value="Virtual Attendance">
+    <label for="va">Virtual Attendance</label><br>
+    <input type="radio" id="pa" name="1" value="Physical Attendance">
+    <label for="pa">Physical Attendance</label><br><br>
+
+    <input type="submit" value="Submit">
 
 </form>
+
+
+
+<a href="#news">Check news</a> <br>
+<a href="erko.kaar@gmail.com">Send email</a><br>
+
+<figure>
+    <img src="https://coderpad.io/wp-content/uploads/2022/12/coderpad-semana21-brainfck-1.png" alt="Image">
+    <figcaption>Image</figcaption>
+</figure>
+
+
+
 
 </body>
 </html>
